@@ -1,0 +1,35 @@
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Tinos', serif;
+  font-size: 100%;
+  overflow-x: hidden;
+  color: #303030;
+}
+*{
+  line-height: 1.5em;
+}
+section{
+  /*font-size: 0.9375rem;*/
+  line-height: 1.25em;
+}
+.section{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.gradient-back{
+  background: rgb(52,172,224);
+  background: -moz-linear-gradient(-45deg, rgba(52,172,224,1) 0%, rgba(51,217,178,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(52,172,224,1) 0%,rgba(51,217,178,1) 100%);
+  background: linear-gradient(135deg, rgba(52,172,224,1) 0%,rgba(51,217,178,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34ace0', endColorstr='#33d9b2',GradientType=1 );
+}
+.bg-hard-light{
+  background-color: #f0f0f0;
+}
+.font-alegreya{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+

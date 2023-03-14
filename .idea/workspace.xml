@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="588dc971-7084-4c60-9609-74cb6073fc6c" name="Default" comment="Init start + Add boostrap + add node-sass">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="588dc971-7084-4c60-9609-74cb6073fc6c" name="Default" comment="Start cleaning scss">
+      <change afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +146,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/tdimitriadis/Experiments/html-newspaper",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -176,8 +172,17 @@
       <workItem from="1554474707271" duration="1490000" />
       <workItem from="1554721982339" duration="2051000" />
       <workItem from="1678092249667" duration="2043000" />
-      <workItem from="1678179758144" duration="4983000" />
+      <workItem from="1678179758144" duration="5889000" />
+      <workItem from="1678780393627" duration="2030000" />
     </task>
+    <task id="LOCAL-00001" summary="Init start + Add boostrap + add node-sass">
+      <created>1678184930767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678184930767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -226,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init start + Add boostrap + add node-sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init start + Add boostrap + add node-sass" />
+    <MESSAGE value="Start cleaning scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start cleaning scss" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json" />
