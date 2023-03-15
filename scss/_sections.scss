@@ -1,0 +1,107 @@
+.section-header {
+  .section-title{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-bottom: 2.4rem;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    font-size: 1.250rem;
+    position: relative;
+    padding-left: 64px;
+    background-color: #f0f0f0;
+
+    &:before{
+      content: "\f054";
+      position: absolute;
+      display: inline-block;
+      font: normal normal normal 18px/1 FontAwesome;    left: 0;
+      width: 46px;
+      line-height: 46px;
+      text-align: center;
+      background: rgb(59,253,0);
+      background: linear-gradient(135deg, rgba(59,253,0,1) 0%, rgb(47, 187, 5) 100%);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      top: 0;
+      color: #ffffff;
+    }
+
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 0;
+      height: 4px;
+      right: 0;
+      background: rgb(0,0,0);
+      background: linear-gradient(129deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 53%, rgba(70,70,70,1) 100%);
+    }
+  }
+}
+
+
+.section-footer{
+  color: #ffffff;
+  font-family: "Alegreya Sans";
+
+  a {
+    color: #ffffff;
+  }
+
+  .footer-logo{
+    padding-bottom: 1rem;
+  }
+
+  .footer-menus{
+    padding: 2rem 0;
+    font-size: 0.925em;
+    border-top: thin solid #555555;
+  }
+
+  .footer-menus h2{
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .footer-menus h2:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5rem;
+    height: 1px;
+    left: 50%;
+    bottom: -1rem;
+    background-color: #929292;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .footer-credits{
+    font-size: 0.925em;
+    padding: 1rem 0;
+    border-top: thin solid #555555;
+  }
+
+  ul.footer-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Alegreya Sans";
+  }
+  ul.footer-menu > li{
+    margin: 0.250rem auto;
+  }
+
+  ul.footer-menu > li > a{
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "codee-html-newspaper",
+  "version": "1.0.0",
+  "description": "A HTML template for online newspapers and magazines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeehut/html-newspaper.git"
+  },
+  "keywords": [
+    "newspaper",
+    "online",
+    "digital",
+    "template",
+    "html"
+  ],
+  "author": "Thanasis Dimitriadis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeehut/html-newspaper/issues"
+  },
+  "homepage": "https://github.com/codeehut/html-newspaper#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

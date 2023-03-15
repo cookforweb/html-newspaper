@@ -1,0 +1,37 @@
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Tinos', serif;
+  font-size: 100%;
+  overflow-x: hidden;
+  color: #303030;
+}
+*{
+  line-height: 1.5em;
+}
+section{
+  /*font-size: 0.9375rem;*/
+  line-height: 1.25em;
+}
+.section{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.gradient-back{
+  background: rgb(59,253,0);
+  background: linear-gradient(180deg, rgba(59,253,0,1) 0%, rgba(26,113,0,1) 100%);
+}
+.bg-hard-light{
+  background-color: #f0f0f0;
+}
+.font-alegreya{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+    max-width: 1340px;
+  }
+}

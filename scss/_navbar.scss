@@ -1,0 +1,31 @@
+.navbar-toggler {
+  border: none;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Alegreya Sans";
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar{
+  padding: 0;
+}
+.navbar-nav{
+  text-align: center;
+  margin: auto;
+  > li > a{
+    display: block;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.625rem 1rem;
+    font-weight: 700;
+  }
+}
+
