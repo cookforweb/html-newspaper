@@ -259,59 +259,6 @@
 
 
 
-.section-footer{
-  color: #ffffff;
-  font-family: "Alegreya Sans";
-}
-.section-footer a{
-  color: #ffffff;
-}
-.section-footer .footer-logo{
-  padding-bottom: 1rem;
-}
-.section-footer .footer-menus{
-  padding: 2rem 0;
-  font-size: 0.925em;
-  border-top: thin solid #555555;
-}
-.section-footer .footer-menus h2{
-  font-size: 1.15rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.section-footer .footer-menus h2:after{
-  content: "";
-  position: absolute;
-  display: block;
-  width: 5rem;
-  height: 1px;
-  left: 50%;
-  bottom: -1rem;
-  background-color: #929292;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-.section-footer .footer-credits{
-  font-size: 0.925em;
-  padding: 1rem 0;
-  border-top: thin solid #555555;
-}
-
-.section-footer ul.footer-menu{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-family: "Alegreya Sans";
-}
-.section-footer ul.footer-menu > li{
-  margin: 0.250rem auto;
-}
-.section-footer ul.footer-menu > li > a{
-  display: block;
-}
 
 
 
