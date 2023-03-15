@@ -2,51 +2,15 @@ header{
   background: rgb(0,0,0);
   background: linear-gradient(129deg, rgba(0,0,0,1) 0%, rgba(54,54,54,1) 100%);
   color: #fff;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 .section-navigation{
   border-bottom: thin solid #cccccc;
 }
-.section-header {
-  .section-title{
-    padding-bottom: 12px;
-    padding-top: 12px;
-    margin-bottom: 2.4rem;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    letter-spacing: 0.1rem;
-    font-weight: 900;
-    font-size: 1.250rem;
-    position: relative;
-    padding-left: 64px;
-    background-color: #f0f0f0;
 
-    &:before{
-      content: "\f054";
-      position: absolute;
-      display: inline-block;
-      font: normal normal normal 18px/1 FontAwesome;    left: 0;
-      width: 46px;
-      line-height: 46px;
-      text-align: center;
-      background-color: rgba(19,149,186,1);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      top: 0px;
-      color: #ffffff;
-    }
-
-    &:after{
-      content: '';
-      position: absolute;
-      display: block;
-      left: 0;
-      bottom: 0;
-      height: 4px;
-      right: 0;
-      background: rgb(0,0,0);
-      background: linear-gradient(129deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 53%, rgba(70,70,70,1) 100%);
-    }
-  }
+#logo{
+  width: auto;
+  min-height: auto;
+  max-width: 200px;
 }

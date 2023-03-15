@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cookforweb/html-newspaper.git"
+    "url": "git+https://github.com/codeehut/html-newspaper.git"
   },
   "keywords": [
     "newspaper",
@@ -21,9 +21,9 @@
   "author": "Thanasis Dimitriadis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cookforweb/html-newspaper/issues"
+    "url": "https://github.com/codeehut/html-newspaper/issues"
   },
-  "homepage": "https://github.com/cookforweb/html-newspaper#readme",
+  "homepage": "https://github.com/codeehut/html-newspaper#readme",
   "dependencies": {
     "bootstrap": "^5.2.3"
   },
